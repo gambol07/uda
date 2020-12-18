@@ -25,7 +25,7 @@ def get_filters():
 cities = ("chicago", "new york", "washington")
 while True:
     city = input(
-        "Which of these cities do you want to know about It: chicago, new york or washington? \n> "
+        "Which of these cities do you want to know about It: chicago, new york or 7washington? \n> "
     )
     if city in cities:
         break
